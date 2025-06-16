@@ -1,0 +1,257 @@
+.MainSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 135px 70px 135px;
+}
+
+
+.FirstSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.FirstRow {
+    width: 20px;
+    height: 40px;
+    background: #DB4444;
+    border-radius: 4px;
+    margin-bottom: 24px;
+
+}
+
+.FirstRow p {
+    font-family: "Poppins",
+        sans-serif;
+    font-size: 16px;
+    margin-left: 40px;
+    color: #DB4444;
+
+}
+
+.DoubleArrow {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0px;
+    top: -10;
+    gap: 25px;
+}
+
+.ArrowGap {
+    display: flex;
+    padding: 10px;
+    background-color: #F5F5F5;
+    border-radius: 30px;
+
+}
+
+.ArrowGap button {
+    border: none;
+}
+
+.CategoriesSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    margin-top: 60px;
+    margin-bottom: 70px;
+    scrollbar-width: none;
+}
+
+.CategoriesSection::-webkit-scrollbar {
+    display: none;
+}
+
+.Block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 225px;
+    height: 192px;
+    border-radius: 4px;
+    gap: 16px;
+    border: 1px solid black;
+    flex-shrink: 0;
+}
+
+
+.Block img {
+    width: 74px;
+    height: 74px;
+    object-fit: contain;
+    transition: color 0.3s;
+}
+
+
+
+.Block:hover {
+    background-color: #DB4444;
+
+}
+
+.Block p {
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+
+
+@media (min-width: 320px)and (max-width: 600px) {
+
+    .MainSection {
+        padding: 10px 10px 10px 10px;
+    }
+
+    .FirstRow {
+        width: 5px;
+        height: 10px;
+        margin-bottom: 4px;
+        border-radius: 2px;
+    }
+
+    .FirstRow p {
+        font-size: 4px;
+        margin-left: 10px;
+    }
+
+    .DoubleArrow {
+        gap: 10px;
+    }
+
+    .ArrowGap {
+        padding: 3px;
+        border-radius: 60px;
+    }
+
+    .CategoriesSection {
+        gap: 10px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .Block {
+        width: 50px;
+        height: 50px;
+        gap: 2px;
+    }
+
+    .Block img {
+        width: 44px;
+        height: 24px;
+    }
+
+    .Block p {
+        font-size: 6px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .MainSection {
+        padding: 10px 55px 10px 55px;
+    }
+
+    .FirstRow {
+        width: 10px;
+        height: 20px;
+        margin-bottom: 5px;
+
+    }
+
+    .FirstRow p {
+        font-size: 7px;
+        margin-left: 20px;
+    }
+
+    .DoubleArrow {
+        right: -10px;
+        top: -10;
+        gap: 8px;
+    }
+
+    .ArrowGap {
+        padding: 5px;
+        border-radius: 60px;
+
+    }
+
+    .CategoriesSection {
+        gap: 15px;
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+
+    .Block {
+        width: 90px;
+        height: 90px;
+        gap: 5px;
+    }
+
+    .Block img {
+        width: 64px;
+        height: 44px;
+    }
+
+    .Block p {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1300px) {
+    .MainSection {
+        padding: 10px 35px 10px 35px;
+    }
+
+    .FirstRow {
+        width: 20px;
+        height: 40px;
+        margin-bottom: 5px;
+
+    }
+
+    .FirstRow p {
+        font-size: 13px;
+        margin-left: 30px;
+    }
+
+    .DoubleArrow {
+        right: -10px;
+        top: -10;
+        gap: 8px;
+    }
+
+    .ArrowGap {
+        padding: 5px;
+        border-radius: 60px;
+
+    }
+
+    .CategoriesSection {
+        gap: 25px;
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+
+    .Block {
+        width: 140px;
+        height: 140px;
+        gap: 15px;
+    }
+
+    .Block img {
+        width: 84px;
+        height: 64px;
+    }
+
+    .Block p {
+        font-size: 15px;
+    }
+}

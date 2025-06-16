@@ -1,0 +1,101 @@
+.MainSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 249px;
+    padding-left: 249px;
+    padding-bottom: 140px;
+    gap: 88px;
+
+}
+
+.Service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Service img {
+    width: 106px;
+    height: 106px;
+}
+
+
+.Service h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+
+.Service p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+@media(min-width: 320px) and (max-width: 600px) {
+    .MainSection {
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        gap: 40px;
+    }
+
+    .Service img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .Service h1 {
+        font-size: 6px;
+    }
+
+    .Service p {
+        font-size: 4px;
+    }
+
+}
+
+@media(min-width: 601px) and (max-width: 900px) {
+    .MainSection {
+        padding-right: 55px;
+        padding-left: 55px;
+        padding-bottom: 55px;
+        gap: 40px;
+    }
+
+    .Service h1 {
+        font-size: 8px;
+    }
+
+    .Service p {
+        font-size: 8px;
+    }
+
+    .Service img {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media(min-width: 901px) and (max-width: 1300px) {
+    .MainSection {
+        padding-right: 35px;
+        padding-left: 35px;
+        padding-bottom: 35px;
+        gap: 40px;
+    }
+
+    .Service img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .Service h1 {
+        font-size: 7px;
+    }
+
+    .Service p {
+        font-size: 7px;
+    }
+}

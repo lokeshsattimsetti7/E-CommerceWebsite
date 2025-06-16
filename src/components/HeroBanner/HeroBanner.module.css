@@ -1,0 +1,138 @@
+.MainSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 135px 140px 135px;
+    gap: 220px;
+}
+
+.LeftSide li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 55px;
+    list-style: none;
+}
+
+.Arrow i {
+    margin-left: 71px;
+}
+
+.RightSide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.RightSide .shopLink {
+    position: absolute;
+    top: 350px;
+    left: 90px;
+    color: #FAFAFA;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    gap: 4px;
+}
+
+.RightSide img {
+    width: 1179px;
+    height: 455px;
+}
+
+
+@media (min-width: 320px) and (max-width: 600px) {
+    .MainSection {
+        padding: 10px 10px 10px 10px;
+        gap: 10px;
+    }
+
+    .LeftSide li {
+        font-size: 5px;
+        line-height: 15.8px;
+    }
+
+    .Arrow i {
+        margin-left: 15px;
+    }
+
+    .RightSide .shopLink {
+        position: absolute;
+        top: 100px;
+        left: 20px;
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+        font-size: 5px;
+        gap: 4px;
+    }
+
+    .RightSide img {
+        width: 300px;
+        height: 130px;
+    }
+
+
+
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .MainSection {
+        padding: 20px 55px 10px 55px;
+        gap: 30px;
+    }
+
+    .LeftSide li {
+        font-size: 9px;
+        line-height: 24px;
+    }
+
+    .Arrow i {
+        margin-left: 25px;
+    }
+
+    .RightSide .shopLink {
+        top: 150px;
+        left: 40px;
+    }
+
+    .RightSide img {
+        width: 450px;
+        height: 200px;
+    }
+}
+
+
+@media(min-width: 901px) and (max-width: 1300px) {
+
+    .MainSection {
+        padding: 20px 35px 10px 35px;
+        gap: 120px;
+    }
+
+    .RightSide img {
+        width: 500px;
+        height: 200px;
+    }
+
+    .LeftSide li {
+        font-size: 9px;
+        line-height: 30px;
+    }
+
+    .Arrow i {
+        margin-left: 35px;
+    }
+
+    .RightSide .shopLink {
+        top: 190px;
+        left: 50px;
+    }
+
+    .RightSide img {
+        width: 650px;
+        height: 250px;
+    }
+}

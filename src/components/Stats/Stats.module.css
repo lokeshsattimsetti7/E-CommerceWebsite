@@ -1,0 +1,159 @@
+.MainSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 135px;
+    padding-right: 135px;
+    gap: 30px;
+
+}
+
+
+.Block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 357px;
+    height: 304px;
+    border: 0.5px solid black;
+    border-radius: 8px;
+}
+
+.Block:hover {
+    background-color: #DB4444;
+    color: aliceblue;
+}
+
+.Block i {
+    background-color: rgb(0, 0, 0);
+    border-radius: 75px;
+    padding: 25px;
+
+}
+
+.Block i:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 77px;
+    border-radius: 85px;
+    padding: 40px;
+}
+
+
+.Block i {
+    font-size: 57px;
+    color: #ffffff;
+}
+
+.Block p1 {
+    font-family: "Inter",
+        sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+.Block p {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    margin-top: 6px;
+}
+
+
+
+@media(min-width: 320px) and (max-width: 600px) {
+    .MainSection {
+        padding-left: 10px;
+        padding-right: 10px;
+        gap: 10px;
+    }
+
+    .Block {
+        width: 157px;
+        height: 114px;
+        border-radius: 4px;
+    }
+
+    .Block i {
+        border-radius: 55px;
+        padding: 5px;
+    }
+
+    .Block i:hover {
+        font-size: 27px;
+        border-radius: 65px;
+        padding: 20px;
+    }
+
+    .Block i {
+        font-size: 17px;
+    }
+
+    .Block p1 {
+        font-size: 6px;
+        margin-top: 5px;
+    }
+
+    .Block p {
+        font-size: 5px;
+        margin-top: 6px;
+    }
+
+}
+
+@media(min-width: 601px) and (max-width: 900px) {
+    .MainSection {
+
+        padding-left: 55px;
+        padding-right: 55px;
+        gap: 10px;
+
+    }
+
+    .Block {
+        width: 157px;
+        height: 180px;
+    }
+
+    .Block i {
+        border-radius: 45px;
+        padding: 15px;
+
+    }
+
+    .Block i {
+        font-size: 25px;
+        color: #ffffff;
+    }
+
+    .Block i:hover {
+        font-size: 50px;
+        border-radius: 45px;
+        padding: 20px;
+    }
+
+
+    .Block p1 {
+        font-size: 20px;
+    }
+
+    .Block p {
+        font-size: 9px;
+    }
+}
+
+@media(min-width: 901px) and (max-width: 1300px) {
+    .MainSection {
+        padding-left: 35px;
+        padding-right: 35px;
+        gap: 20px;
+    }
+
+    .Block p {
+        font-size: 15px;
+    }
+
+
+}

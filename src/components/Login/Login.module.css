@@ -1,0 +1,195 @@
+.SignUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-right: 135px;
+    margin-bottom: 140px;
+    gap: 129px;
+    flex-wrap: wrap;
+}
+
+.LeftSide img {
+    width: 1064px;
+    height: 927px;
+}
+
+.RightSide {
+    flex: 1;
+    position: relative;
+
+}
+
+.Txt h1 {
+    font-family: "Inter",
+        sans-serif;
+    margin-bottom: 24px;
+    font-size: 36px;
+}
+
+.Txt p {
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 48px;
+    font-size: 16px;
+}
+
+.inputGroup {
+    position: relative;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.inputGroup input {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    background: transparent;
+    font-size: 18px;
+}
+
+.inputGroup label {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    color: #aaa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    pointer-events: none;
+    transition: 0.2s;
+}
+
+.inputGroup input:focus+label,
+.inputGroup input:valid+label {
+    top: -15px;
+    font-size: 22px;
+    color: #333;
+}
+
+.Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 60px;
+    margin-top: 24px;
+}
+
+.TypeOne {
+    padding: 20px 98px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    background-color: #DB4444;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.TypeOne a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.TypeOne:hover {
+    background-color: #c33c3c;
+}
+
+.TypeTwo {
+    padding: 16px 24px;
+    color: #DB4444;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.TypeTwo:hover {
+    background-color: #f3f3f3;
+}
+
+
+
+
+@media (min-width: 320px)and (max-width: 600px) {
+    .SignUp {
+        padding: 10px 10px 10px 10px;
+        gap: 9px;
+    }
+
+    .LeftSide img {
+        width: 350px;
+        height: 150px;
+    }
+
+
+
+    .Txt h1 {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .Txt p {
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+
+    .inputGroup {
+        margin-bottom: 15px;
+    }
+
+
+    .Button {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 24px;
+    }
+
+    .TypeOne {
+        padding: 17px 128px;
+        font-size: 15px;
+    }
+
+    .TypeOne a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .TypeOne:hover {
+        background-color: #c33c3c;
+    }
+
+    .TypeTwo {
+        padding: 17px 88px;
+
+    }
+}
+
+
+@media (min-width: 601px)and (max-width: 900px) {
+    .SignUp {
+        padding: 10px 55px 10px 55px;
+        gap: 9px;
+    }
+
+    .LeftSide img {
+        width: 550px;
+        height: 250px;
+    }
+}
+
+@media (min-width: 901px)and (max-width: 1300px) {
+    .SignUp {
+        padding: 40px 35px 10px 35px;
+        gap: 29px;
+    }
+
+    .LeftSide img {
+        width: 800px;
+        height: 350px;
+    }
+}

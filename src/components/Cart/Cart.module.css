@@ -1,0 +1,350 @@
+.MainSection {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 135px 135px 140px;
+    gap: 80px;
+}
+
+.SectionOne {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.SectionOne li a {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.SectionOne li a:hover {
+    color: #b90000;
+}
+
+.Row img {
+    width: 90px;
+    height: 90px;
+
+}
+
+.SectionTwo {
+    display: flexbox;
+}
+
+.Row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.Row p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.quantityBox {
+    width: 74px;
+    height: 72px;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+}
+
+.arrows {
+    width: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.arrows button {
+    flex: 1;
+    border: none;
+    background-color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.removeBtn {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: red;
+}
+
+.emptyCartMessage {
+    padding: 2rem;
+    font-size: 1.2rem;
+    text-align: center;
+    color: gray;
+}
+
+.disabledBtn {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+
+.display {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.LastSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.LastSection button {
+    padding: 16px 48px 16px 48px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+
+
+.ThirdSection {
+    display: flex;
+    flex-direction: row;
+    gap: 473px;
+}
+
+.LeftSide button {
+    padding: 16px 48px 16px 48px;
+    background-color: #d12929;
+    color: white;
+    border-radius: 8px;
+    border: hidden;
+}
+
+.LeftSide button:hover {
+    opacity: 70%;
+}
+
+
+.couponForm {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.couponInput {
+    font-size: 20px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 180px;
+}
+
+.couponButton {
+    background-color: #000;
+    color: white;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+
+.RightSide {
+    width: 621px;
+    height: 428px;
+    border: 1px solid black;
+
+
+}
+
+.RightSide h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 26 px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.RightSide p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+
+}
+
+.Gap {
+    margin: 60px 60px 0px 60px;
+}
+
+.RightSide span {
+    margin-left: 307px;
+}
+
+.Gap button {
+    padding: 16px 48px 16px 48px;
+    background-color: #d12929;
+    color: white;
+    border-radius: 8px;
+    border: hidden;
+
+}
+
+.Gap button:hover {
+    opacity: 70%;
+}
+
+
+
+
+@media (min-width: 320px)and (max-width: 600px) {
+
+    .MainSection {
+        padding: 40px 10px 40px 15px;
+        gap: 40px;
+    }
+
+    .SectionOne {
+        gap: 10px;
+    }
+
+    .SectionOne li a {
+        font-size: 6px;
+    }
+
+    .Row {
+        margin-bottom: 10px;
+    }
+
+    .Row p {
+        font-size: 6px;
+        line-height: 1ch;
+    }
+
+    .quantityBox {
+        width: 34px;
+        height: 32px;
+        border-radius: 4px;
+    }
+
+    .arrows {
+        width: 14px;
+    }
+
+    .arrows button {
+        font-size: 6px;
+    }
+
+    .display {
+        font-size: 10px;
+    }
+
+
+    .LastSection button {
+        padding: 6px 28px 6px 28px;
+        border-radius: 4px;
+    }
+
+
+
+    .ThirdSection {
+        flex-direction: column;
+        gap: 13px;
+    }
+
+    .LeftSide button {
+        padding: 6px 28px 6px 28px;
+        border-radius: 4px;
+    }
+
+
+
+    .couponForm {
+        gap: 4px;
+        margin-top: 5px;
+    }
+
+    .couponInput {
+        font-size: 10px;
+        padding: 4px 6px;
+        width: 90px;
+    }
+
+    .couponButton {
+        padding: 2px 7px;
+        border-radius: 2px;
+    }
+
+
+    .RightSide {
+        width: 321px;
+        height: 158px;
+    }
+
+    .RightSide h1 {
+        font-size: 16px;
+    }
+
+    .RightSide p {
+        font-size: 6px;
+    }
+
+    .Gap {
+        margin: 30px 30px 0px 30px;
+    }
+
+    .RightSide span {
+        margin-left: 207px;
+    }
+
+    .Gap button {
+        padding: 6px 28px 6px 28px;
+        border-radius: 4px;
+    }
+
+}
+
+@media (min-width: 601px)and (max-width: 900px) {
+    .MainSection {
+        padding: 40px 55px 40px 55px;
+        gap: 40px;
+    }
+
+    .ThirdSection {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .RightSide {
+        width: 531px;
+        height: 428px;
+        border: 1px solid black;
+    }
+
+}
+
+@media (min-width: 901px)and (max-width: 1300px) {
+    .MainSection {
+        padding: 40px 35px 40px 35px;
+        gap: 40px;
+    }
+
+    .ThirdSection {
+        flex-direction: column;
+        gap: 50px;
+    }
+}

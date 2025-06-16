@@ -1,0 +1,410 @@
+.MainSection {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 135px 135px 140px;
+    gap: 80px;
+}
+
+.SectionOne {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+
+}
+
+.SectionOne li a {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.SectionOne li a:hover {
+    color: #b90000;
+}
+
+.Row img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.SectionTwo {
+    display: flex;
+    flex-direction: row;
+    gap: 173px;
+}
+
+.LeftSide {
+    display: flex;
+    flex-direction: column;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+
+.formBox {
+    width: 621px;
+    height: 1077px;
+    background-color: #ffffff;
+    align-items: center;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formGroup {
+    margin-bottom: 50px;
+
+}
+
+.formGroup label {
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    opacity: 40%;
+}
+
+.formGroup label span {
+    color: #d33;
+    margin-left: 2px;
+}
+
+.optional {
+    color: #999;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.formGroup input {
+    width: 521px;
+    height: 66px;
+    font-size: 14px;
+    border-radius: 8px;
+    transition: border-color 0.2s ease;
+}
+
+.formGroup input:focus {
+    border-color: #b90000;
+}
+
+
+.checkboxGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+
+
+.checkboxGroup {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.checkboxGroup p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.customCheckbox input {
+    display: none;
+}
+
+.customCheckbox {
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.customCheckbox input:checked+.checkmark::after {
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+
+
+.RightSide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    width: 697px;
+    height: 794px;
+
+}
+
+
+.Row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+    gap: 291px;
+}
+
+.Row p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    line-height: 24px;
+
+}
+
+.Gap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Gap span {
+    margin-left: 307px;
+}
+
+.Gap p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    border-bottom: 1px solid black;
+}
+
+
+
+
+
+
+.couponButton {
+    background-color: #000;
+    color: white;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+
+
+.paymentSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+
+.paymentOption {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.paymentOption input[type="radio"] {
+    accent-color: #000000;
+
+}
+
+.paymentOption p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+
+}
+
+
+.couponForm {
+    display: flex;
+    gap: 8px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.couponInput {
+    font-size: 20px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 180px;
+}
+
+.couponButton {
+    background-color: #d12929;
+    color: white;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.couponButton:hover {
+    opacity: 70%;
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+    .MainSection {
+        padding: 40px 10px 40px 10px;
+        gap: 40px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .SectionOne li a {
+        font-size: 6px;
+    }
+
+    .SectionTwo {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .formBox {
+        width: 321px;
+        height: 500px;
+    }
+
+    .formGroup {
+        margin-bottom: 15px;
+
+    }
+
+    .formGroup label {
+        font-size: 10px;
+        line-height: 14px;
+
+    }
+
+    .optional {
+        font-size: 6px;
+    }
+
+    .formGroup input {
+        width: 281px;
+        height: 30px;
+        font-size: 7px;
+        border-radius: 4px;
+    }
+
+    .checkboxGroup {
+        gap: 10px;
+    }
+
+    .checkboxGroup p {
+        font-size: 8px;
+        line-height: 14px;
+    }
+
+    .RightSide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        border: hidden;
+        width: 350px;
+        height: 794px;
+    }
+
+
+    .Row {
+        margin-bottom: 17px;
+        gap: 121px;
+    }
+
+    .Row p {
+        font-size: 16px;
+        line-height: 14px;
+    }
+
+    .Gap span {
+        margin-left: 207px;
+    }
+
+    .paymentOption img {
+        margin-left: -100px;
+        width: 120px;
+    }
+
+    .paymentOption p {
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        margin-left: -100px;
+    }
+
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .MainSection {
+        padding: 40px 55px 40px 55px;
+        gap: 30px;
+    }
+
+    .SectionTwo {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+}
+
+@media (min-width: 901px) and (max-width: 1300px) {
+    .MainSection {
+        padding: 40px 35px 40px 35px;
+        gap: 30px;
+    }
+
+    .SectionTwo {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+}

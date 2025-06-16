@@ -1,0 +1,401 @@
+ .MainSection {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .UpperBar {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 18px 135px;
+     background-color: #000;
+     color: #fff;
+     font-size: 18px;
+ }
+
+ .MainTxt {
+     font-family: "Poppins", sans-serif;
+     font-size: 18px;
+     line-height: 21px;
+     text-align: center;
+     flex: 1;
+ }
+
+ .shopLink {
+     font-family: "Poppins", sans-serif;
+     font-size: 16px;
+     font-weight: bold;
+     color: #ffffff;
+     margin-left: 8px;
+     text-decoration: underline;
+ }
+
+ .lang {
+     display: flex;
+     align-items: center;
+     font-family: "Poppins", sans-serif;
+     font-size: 14px;
+     gap: 5px;
+ }
+
+ .LowerBar {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 40px 135px 16px 135px;
+     border-bottom: 3px solid #ddd;
+     flex-wrap: wrap;
+
+ }
+
+ .LowerBar h1 {
+     font-family: "Poppins", sans-serif;
+     font-size: 30px;
+     font-weight: bold;
+     line-height: 24px;
+     letter-spacing: 3%;
+ }
+
+ .NavLinks {
+     list-style: none;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 48px;
+ }
+
+ .NavLinks li a {
+     font-family: "Poppins", sans-serif;
+     font-size: 16px;
+     text-decoration: none;
+     color: #333;
+     transition: color 0.3s;
+ }
+
+ .NavLinks li a:hover {
+     color: #b90000;
+ }
+
+ .SearchBar {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 243px;
+     height: 30px;
+     position: relative;
+ }
+
+ .searchBox {
+     width: 100%;
+     font-family: "Poppins", sans-serif;
+     font-size: 12px;
+     line-height: 18px;
+     border-radius: 10px;
+     opacity: 50%;
+ }
+
+ .searchIcon {
+     position: absolute;
+     right: 15px;
+     top: 50%;
+     transform: translateY(-50%);
+ }
+
+ .Icons ul {
+     display: flex;
+     list-style: none;
+     gap: 15px;
+     color: #000;
+ }
+
+ .Icons ul {
+     list-style: none;
+     display: flex;
+     gap: 15px;
+ }
+
+ .Icons a {
+     color: #333;
+     font-size: 18px;
+ }
+
+ .hamburger {
+     font-size: 24px;
+     display: none;
+     cursor: pointer;
+ }
+
+ .mobileMenu {
+     font-family: "Poppins", sans-serif;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 30%;
+     height: 100%;
+     background: #ffffff;
+     transform: translateX(-100%);
+     transition: transform 0.3s ease-in-out;
+     z-index: 1002;
+     padding: 20px;
+     box-shadow: 2px 0 6px rgba(0, 0, 0, 0.2);
+
+ }
+
+ .mobileMenu.open {
+     transform: translateX(0);
+ }
+
+ .mobileNav {
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+ }
+
+ .mobileNav a {
+     text-decoration: none;
+     color: #b90000;
+     font-size: 18px;
+ }
+
+ .overlay {
+     position: fixed;
+     inset: 0;
+     background-color: rgba(0, 0, 0, 0.4);
+     opacity: 0;
+     visibility: hidden;
+     transition: opacity 0.3s;
+     z-index: 1001;
+ }
+
+ .overlay.show {
+     opacity: 1;
+     visibility: visible;
+ }
+
+ .closeBtn {
+     position: absolute;
+     top: 10px;
+     right: 15px;
+     font-size: 28px;
+     background: none;
+     border: none;
+     cursor: pointer;
+ }
+
+ .UpperBar {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 18px 135px;
+     background-color: #000;
+     color: #fff;
+     font-size: 18px;
+ }
+
+ .MainTxt {
+     font-family: "Poppins", sans-serif;
+     font-size: 18px;
+     line-height: 21px;
+     text-align: center;
+     flex: 1;
+ }
+
+ .shopLink {
+     font-family: "Poppins", sans-serif;
+     font-size: 16px;
+     font-weight: bold;
+     color: #ffffff;
+     margin-left: 8px;
+     text-decoration: underline;
+ }
+
+ .lang {
+     display: flex;
+     align-items: center;
+     font-family: "Poppins", sans-serif;
+     font-size: 14px;
+     gap: 5px;
+ }
+
+ .LowerBar {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 40px 135px 16px 135px;
+     border-bottom: 3px solid #ddd;
+     flex-wrap: wrap;
+ }
+
+ .LowerBar h1 {
+     font-family: "Inter", sans-serif;
+     font-size: 30px;
+     font-weight: bold;
+     line-height: 24px;
+     letter-spacing: 3%;
+ }
+
+ .NavLinks {
+     list-style: none;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 48px;
+ }
+
+ .NavLinks li a {
+     font-family: "Poppins", sans-serif;
+     font-size: 16px;
+     text-decoration: none;
+     color: #333;
+     transition: color 0.3s;
+ }
+
+ .NavLinks li a:hover {
+     color: #b90000;
+ }
+
+ .Icons ul {
+     display: flex;
+     list-style: none;
+     gap: 15px;
+     color: #000;
+ }
+
+ @media (min-width: 320px) and (max-width: 600px) {
+     .UpperBar {
+         padding: 5px 35px 5px 35px;
+         font-size: 6px;
+     }
+
+     .MainTxt {
+         font-size: 6px;
+         line-height: 0px;
+     }
+
+     .shopLink {
+         font-size: 6px;
+         margin-left: 4px;
+     }
+
+     .lang {
+         font-size: 3px;
+     }
+
+     .LowerBar {
+         padding: 5px 10px 5px 10px;
+         border-bottom: 1px solid #ddd;
+         flex-wrap: nowrap;
+         justify-content: space-between;
+     }
+
+     .LowerBar h1 {
+         display: none;
+     }
+
+     .NavLinks {
+         flex-wrap: nowrap;
+         gap: 10px;
+         line-height: 0px;
+     }
+
+     .NavLinks li a {
+         font-size: 10px;
+     }
+
+     .SearchBar {
+         width: 200px;
+         height: 25px;
+     }
+
+     .searchBox {
+         width: 100%;
+         height: 100%;
+         font-family: "Poppins", sans-serif;
+         font-size: 7px;
+         line-height: 1.2;
+         padding: 4px 12px;
+         border-radius: 4px;
+         border: 1px solid #ccc;
+         opacity: 0.8;
+         box-sizing: border-box;
+     }
+
+     .searchIcon {
+         position: absolute;
+         right: 10px;
+         top: 50%;
+         transform: translateY(-50%);
+         font-size: 14px;
+         color: #666;
+     }
+
+     .Icons ul {
+         gap: 8px;
+         font-size: 8px;
+     }
+
+     .NavLinks,
+     .Icons {
+         display: none;
+     }
+
+     .hamburger {
+         display: block;
+     }
+ }
+
+ @media (min-width: 601px) and (max-width: 900px) {
+     .UpperBar {
+         padding: 12px 20px;
+     }
+
+     .MainTxt {
+         font-size: 12px;
+     }
+
+     .LowerBar {
+         padding: 20px 10px 10px 10px;
+     }
+
+     .NavLinks {
+         gap: 20px;
+     }
+
+     .SearchBar {
+         display: none;
+     }
+ }
+
+
+ @media(min-width: 901px) and (max-width: 1200px) {
+
+     .UpperBar {
+         padding: 18px 105px;
+     }
+
+     .MainTxt {
+         font-size: 16px;
+     }
+
+     .shopLink {
+         font-size: 15px;
+     }
+
+     .lang {
+         font-size: 8px;
+     }
+
+     .LowerBar {
+         padding: 20px 35px 10px 35px;
+     }
+
+     .LowerBar h1 {
+         font-size: 30px;
+     }
+
+     .NavLinks {
+         gap: 28px;
+     }
+
+     .NavLinks li a {
+         font-size: 10px;
+     }
+ }

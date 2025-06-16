@@ -1,0 +1,842 @@
+.MainSection {
+    display: flexbox;
+    padding: 80px 135px 0px 135px;
+
+}
+
+.SectionOne {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.SectionTwo {
+    margin-top: 100px;
+    display: flex;
+    gap: 91px;
+    margin-bottom: 140px;
+}
+
+.SectionOne li a {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.SectionOne li a:hover {
+    color: #b90000;
+}
+
+.LeftSide {
+    display: flex;
+    gap: 33px;
+
+}
+
+.FirstColumn {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.FirstColumn img {
+    width: 225px;
+    height: 182px;
+}
+
+.SecondColumn img {
+    width: 661px;
+    height: 794px;
+
+}
+
+.RightSide {
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+}
+
+.RightSide h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+.RightSide i {
+    color: gold;
+    font-size: 19px;
+
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.stars p {
+    color: black;
+    opacity: 50%;
+}
+
+.stars p1 {
+    font-family: "Poppins",
+        sans-serif;
+    font-size: 24px;
+    color: #00FF66;
+}
+
+.RightSide h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    line-height: 34px;
+    letter-spacing: 5%;
+
+}
+
+.RightSide p {
+    font-family: "Poppins",
+        sans-serif;
+    font-size: 20px;
+    line-height: 31px;
+
+}
+
+hr {
+    margin: 20px 0;
+}
+
+.Size {
+    display: flex;
+    align-items: center;
+    gap: 56px;
+    margin-bottom: 20px;
+
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 32px;
+    height: 32px;
+    border: 1px solid black;
+    border-radius: 5px;
+
+
+
+
+}
+
+.block p3 {
+    font-family: "Poppins",
+        sans-serif;
+    font-size: 14px;
+}
+
+
+
+.Size :hover {
+    background-color: #DB4444;
+    color: aliceblue;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 24px;
+    border: 0.5px solid black;
+    border-radius: 4px;
+
+
+}
+
+.counter button {
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    font-size: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.counter button:hover {
+    background-color: #DB4444;
+}
+
+.count {
+    min-width: 30px;
+    text-align: center;
+}
+
+.buy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+}
+
+.BuyButton a {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.BuyButton button {
+    color: aliceblue;
+    background-color: #DB4444;
+    padding: 17px 20px 17px 20px;
+    font-family: "Poppins",
+        sans-serif;
+    font-size: 16px;
+    border-radius: 4px;
+    border: hidden;
+}
+
+.BuyButton button:hover {
+    opacity: 70%;
+}
+
+
+.buy img {
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    margin-top: 21px;
+    border-radius: 4px;
+    gap: 2px;
+}
+
+
+.serviceBox {
+    border: 1px solid rgb(76, 69, 69);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.textContent h1 {
+    font-family: "Poppins",
+        sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.textContent p {
+    font-family: "Poppins",
+        sans-serif;
+    font-size: 12px;
+}
+
+.SectionThree {
+    display: flex;
+}
+
+.OrangeBlock {
+    width: 20px;
+    height: 40px;
+    background: #DB4444;
+    border-radius: 4px;
+
+
+}
+
+.OrangeBlock p {
+    font-family: "Poppins",
+        sans-serif;
+    font-size: 16px;
+
+    position: absolute;
+    left: 190px;
+    color: #DB4444;
+
+}
+
+.ProductSection {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 210px;
+    margin-bottom: 140px;
+}
+
+
+.Product {
+    flex: auto 0 0;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+
+.ProductImage {
+    width: 357px;
+    height: 331px;
+
+}
+
+
+.ExtraItems {
+    position: absolute;
+    top: 22px;
+    right: 125px;
+}
+
+.Eye {
+    position: absolute;
+    top: 72px;
+    right: -125px;
+
+}
+
+.Heart {
+    position: absolute;
+    top: 22px;
+    right: -125px;
+
+}
+
+
+
+
+.Product h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+.Product i {
+    color: #FFAD33;
+}
+
+.Product p {
+    font-family: "Poppins", sans-serif;
+    color: #DB4444;
+}
+
+.SideTxt {
+    font-family: "Poppins", sans-serif;
+    color: #7D8184;
+}
+
+.buy img {
+    width: 48px;
+    height: 48px;
+
+}
+
+@media(min-width: 320px) and (max-width: 600px) {
+    .MainSection {
+        padding: 10px 10px 0px 10px;
+    }
+
+    .SectionOne {
+        gap: 5px;
+    }
+
+    .SectionTwo {
+        margin-top: 10px;
+        gap: 18px;
+        margin-bottom: 70px;
+    }
+
+    .SectionOne li a {
+        font-size: 5px;
+    }
+
+
+
+    .LeftSide {
+        gap: 6px;
+    }
+
+    .FirstColumn {
+        gap: 11px;
+    }
+
+    .FirstColumn img {
+        width: 35px;
+        height: 40px;
+    }
+
+    .SecondColumn img {
+        width: 141px;
+        height: 192px;
+    }
+
+    .RightSide h1 {
+        font-size: 6px;
+        line-height: 0px;
+    }
+
+    .RightSide i {
+        line-height: 0px;
+        /* margin-top: -20px; */
+        font-size: 5px;
+    }
+
+    .stars {
+        gap: 2px;
+    }
+
+    .stars p {
+        opacity: 50%;
+
+    }
+
+    .stars p1 {
+        font-size: 5px;
+    }
+
+    .RightSide h2 {
+        font-size: 10px;
+        line-height: 0px;
+        letter-spacing: 5%;
+
+    }
+
+    .RightSide p {
+        font-size: 5px;
+        line-height: 7px;
+
+    }
+
+    .RightSide h3 {
+        font-family: "Poppins",
+            sans-serif;
+        font-size: 10px;
+        line-height: 0px;
+    }
+
+    hr {
+        margin: 5px 0;
+    }
+
+    .Size {
+        gap: 6px;
+        margin-bottom: 10px;
+
+    }
+
+    .block {
+        width: 15px;
+        height: 15px;
+    }
+
+    .block p3 {
+        font-size: 1px;
+    }
+
+
+
+    .counter {
+        gap: 0px;
+        font-size: 7px;
+        border-radius: 1px;
+    }
+
+    .counter button {
+        width: 12px;
+        height: 15px;
+        font-size: 5px;
+    }
+
+
+
+    .count {
+        min-width: 15px;
+
+    }
+
+    .buy {
+        gap: 5px;
+
+    }
+
+    .BuyButton button {
+        padding: 5px 10px 3px 10px;
+        font-size: 9px;
+        border-radius: 2px;
+    }
+
+    .buy img {
+        width: 15px;
+        height: 15px;
+        border-radius: 2px;
+    }
+
+
+    .services {
+        margin-top: 2px;
+        border-radius: 1px;
+        gap: 1px;
+    }
+
+    .services img {
+        width: 10px;
+        height: 10px;
+    }
+
+
+    .serviceBox {
+        gap: 3px;
+    }
+
+    .textContent h1 {
+        font-size: 6px;
+
+    }
+
+    .textContent p {
+        font-size: 3px;
+    }
+
+
+    .OrangeBlock {
+        width: 5px;
+        height: 10px;
+
+    }
+
+    .OrangeBlock p {
+        font-size: 8px;
+        left: 35px;
+    }
+
+    .SectionThree {
+        padding: 10px 10px 10px 10px;
+
+    }
+
+    .ProductSection {
+        margin-top: 30px;
+        gap: 0px;
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+
+
+    .Product {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .ProductImage {
+        width: 67px;
+        height: 67px;
+    }
+
+    .ExtraItems {
+        top: 0px;
+        right: 15px;
+    }
+
+    .ExtraItems img {
+        width: 10px;
+        height: 5px;
+    }
+
+    .Eye {
+        top: 12px;
+        right: 15px;
+    }
+
+    .Eye img {
+        width: 10px;
+        height: 10px;
+    }
+
+    .Heart {
+        top: 25px;
+        right: 15px;
+    }
+
+    .Heart img {
+        width: 10px;
+        height: 10px;
+    }
+
+    .Product h1 {
+        font-size: 5px;
+    }
+
+    .Product i {
+        font-size: 4px;
+    }
+
+    .Product p {
+        font-size: 5px;
+        margin-top: 2px;
+        margin-bottom: -6px;
+    }
+
+    .SideTxt {
+        font-size: 5px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .MainSection {
+        display: flexbox;
+        padding: 20px 55px 0px 55px;
+
+    }
+
+    .SectionOne {
+
+        gap: 10px;
+    }
+
+    .SectionOne li a {
+
+        font-size: 8px;
+
+    }
+
+    .SectionTwo {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin-bottom: 30px;
+    }
+
+    .FirstColumn img {
+        width: 100px;
+        height: 96px;
+    }
+
+    .SecondColumn img {
+        width: 350px;
+        height: 450px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .SectionThree {
+        padding: 10px 0px 10px 0px;
+
+    }
+
+    .OrangeBlock {
+        width: 10px;
+        height: 20px;
+
+    }
+
+    .OrangeBlock p {
+        font-size: 7px;
+        left: 140px;
+    }
+
+
+    .ProductSection {
+        margin-top: 30px;
+        gap: 0px;
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+
+
+    .Product {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .ProductImage {
+        width: 137px;
+        height: 117px;
+    }
+
+    .ExtraItems {
+        top: 0px;
+        left: 110px;
+    }
+
+    .ExtraItems img {
+        width: 15px;
+        height: 10px;
+    }
+
+    .Eye {
+        top: 18px;
+        left: 110px;
+    }
+
+    .Eye img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .Heart {
+        top: 35px;
+        left: 110px;
+    }
+
+    .Heart img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .Product h1 {
+        font-size: 8px;
+    }
+
+    .Product i {
+        font-size: 8px;
+    }
+
+    .Product p {
+        font-size: 10px;
+        margin-top: 1px;
+        margin-bottom: -6px;
+    }
+
+    .SideTxt {
+        font-size: 8px;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1300px) {
+    .MainSection {
+        padding: 10px 35px 0px 35px;
+    }
+
+    .SectionOne {
+        gap: 25px;
+    }
+
+    .SectionTwo {
+        margin-top: 20px;
+        gap: 18px;
+        margin-bottom: 70px;
+    }
+
+    .SectionOne li a {
+        font-size: 8px;
+    }
+
+    .SectionTwo {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin-bottom: 30px;
+    }
+
+    .SecondColumn img {
+        width: 561px;
+        height: 794px;
+
+    }
+
+    .OrangeBlock {
+        width: 20px;
+        height: 40px;
+        margin-bottom: 5px;
+
+
+    }
+
+    .OrangeBlock p {
+        font-size: 13px;
+        margin-left: 30px;
+        left: 50px;
+        color: #DB4444;
+
+    }
+
+    .ProductSection {
+        margin-top: 70px;
+        gap: 0px;
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+
+
+    .Product {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .ProductImage {
+        width: 170px;
+        height: 167px;
+    }
+
+    .ExtraItems {
+        top: 0px;
+        left: 150px;
+    }
+
+    .ExtraItems img {
+        width: 15px;
+        height: 10px;
+    }
+
+    .Eye {
+        top: 18px;
+        left: 150px;
+    }
+
+    .Eye img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .Heart {
+        top: 35px;
+        left: 150px;
+    }
+
+    .Heart img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .Product h1 {
+        font-size: 11px;
+    }
+
+    .Product i {
+        font-size: 12px;
+    }
+
+    .Product p {
+        font-size: 15px;
+        margin-top: 1px;
+        margin-bottom: 5px;
+    }
+
+    .SideTxt {
+        font-size: 8px;
+    }
+
+}

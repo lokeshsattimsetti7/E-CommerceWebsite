@@ -1,0 +1,416 @@
+.MainSection {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 135px 135px 128px;
+
+}
+
+.FirstSection {
+    display: flex;
+    flex-direction: row;
+}
+
+.FirstRow {
+    width: 20px;
+    height: 40px;
+    background: #DB4444;
+    border-radius: 4px;
+    margin-bottom: 20px;
+
+}
+
+.FirstRow p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    left: 170px;
+    color: #DB4444;
+
+}
+
+.MainSection h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.ProductsButton {
+    display: flex;
+    position: absolute;
+    right: 160px;
+}
+
+.ProductsButton button {
+    display: flex;
+    padding: 16px 48px 16px 48px;
+    font-family: "Poppins",
+        sans-serif;
+    background-color: #DB4444;
+    color: #F5F5F5;
+    border-radius: 4px;
+    border: none;
+}
+
+.ProductsButton button:hover {
+    opacity: 70%;
+}
+
+
+.ProductSection {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 135px;
+}
+
+.Product {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+}
+
+.ProductImage {
+    width: 357px;
+    height: 331px;
+}
+
+.ExtraItems {
+    position: absolute;
+    top: 22px;
+    right: 125px;
+}
+
+.Product h1 {
+    font-family: "Poppins",
+        sans-serif;
+    font-size: 16px;
+}
+
+.Eye {
+    position: absolute;
+    top: 72px;
+    right: -125px;
+
+}
+
+.Heart {
+    position: absolute;
+    top: 22px;
+    right: -125px;
+
+}
+
+.Product i {
+    color: #FFAD33;
+}
+
+.Product p {
+    font-family: "Poppins", sans-serif;
+    color: #DB4444;
+}
+
+.SideTxt {
+    font-family: "Poppins", sans-serif;
+    color: #7D8184;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 600px) {
+
+    .MainSection {
+        padding: 10px 10px 10px 10px;
+    }
+
+    .FirstRow {
+        width: 5px;
+        height: 10px;
+        margin-bottom: 4px;
+        border-radius: 2px;
+    }
+
+    .FirstRow p {
+        font-size: 4px;
+        margin-left: -140px;
+    }
+
+    .MainSection h1 {
+        font-size: 10px;
+    }
+
+    .ProductsButton {
+        right: 60px;
+    }
+
+    .ProductsButton button {
+        padding: 6px 18px 6px 18px;
+        font-size: 5px;
+    }
+
+    .ProductSection {
+        margin-top: 10px;
+        margin-right: 0px;
+        overflow: hidden;
+        gap: 10px;
+    }
+
+    .Product {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        position: relative;
+    }
+
+
+    .ProductImage {
+        width: 87px;
+        height: 97px;
+    }
+
+    .ExtraItems {
+        top: 0px;
+        right: 15px;
+    }
+
+    .ExtraItems img {
+        width: 10px;
+        height: 5px;
+    }
+
+    .Eye {
+        top: 12px;
+        right: 15px;
+    }
+
+    .Eye img {
+        width: 10px;
+        height: 10px;
+    }
+
+    .Heart {
+        top: 25px;
+        right: 15px;
+    }
+
+    .Heart img {
+        width: 10px;
+        height: 10px;
+    }
+
+    .Product h1 {
+        font-size: 6px;
+    }
+
+    .Product i {
+        font-size: 4px;
+    }
+
+    .Product p {
+        font-size: 5px;
+        margin-top: 2px;
+        margin-bottom: -6px;
+    }
+
+    .SideTxt {
+        font-size: 5px;
+
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    .MainSection {
+        padding: 20px 55px 10px 55px;
+    }
+
+
+    .FirstRow {
+        width: 10px;
+        height: 20px;
+        margin-bottom: 5px;
+
+    }
+
+    .FirstRow p {
+        font-size: 7px;
+        margin-left: -80px;
+    }
+
+    .MainSection h1 {
+        font-size: 20px;
+    }
+
+    .ProductsButton {
+        right: 60px;
+    }
+
+    .ProductsButton button {
+        padding: 9px 28px 9px 28px;
+        font-size: 8px;
+    }
+
+    .ProductSection {
+        margin-top: 10px;
+        margin-right: 0px;
+        overflow: hidden;
+        gap: 10px;
+    }
+
+    .Product {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        position: relative;
+    }
+
+
+
+    .ProductImage {
+        width: 137px;
+        height: 117px;
+    }
+
+
+
+    .Eye {
+        top: 18px;
+        left: 110px;
+    }
+
+    .Eye img {
+        width: 15px;
+        height: 15px;
+    }
+
+
+    .Heart {
+        top: 35px;
+        left: 110px;
+    }
+
+    .Heart img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .Product h1 {
+        font-size: 8px;
+    }
+
+    .Product i {
+        font-size: 8px;
+    }
+
+    .Product p {
+        font-size: 10px;
+        margin-top: 1px;
+        margin-bottom: -6px;
+    }
+
+    .SideTxt {
+        font-size: 8px;
+    }
+
+}
+
+
+@media(min-width: 901px) and (max-width: 1300px) {
+    .MainSection {
+        padding: 20px 35px 10px 35px;
+    }
+
+    .FirstRow {
+        width: 20px;
+        height: 40px;
+        margin-bottom: 5px;
+
+    }
+
+    .FirstRow p {
+        font-size: 13px;
+        margin-left: -80px;
+    }
+
+    .MainSection h1 {
+        font-size: 20px;
+    }
+
+    .ProductsButton {
+        right: 50px;
+    }
+
+    .ProductSection {
+        margin-top: 10px;
+        margin-right: 0px;
+        overflow: hidden;
+        gap: 10px;
+    }
+
+    .Product {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        position: relative;
+    }
+
+    .ProductImage {
+        width: 180px;
+        height: 167px;
+    }
+
+    .Eye {
+        top: 18px;
+        left: 150px;
+    }
+
+    .Eye img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .Heart {
+        top: 35px;
+        left: 150px;
+    }
+
+    .Heart img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .Product h1 {
+        font-size: 11px;
+    }
+
+    .Product i {
+        font-size: 12px;
+    }
+
+    .Product p {
+        font-size: 15px;
+        margin-top: 1px;
+        margin-bottom: 5px;
+    }
+
+    .SideTxt {
+        font-size: 8px;
+    }
+}
