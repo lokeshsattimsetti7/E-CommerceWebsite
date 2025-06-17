@@ -1,6 +1,6 @@
 # 🛍️ Exclusive – E-Commerce Website
 
-**🔗 Live Demo:** [https://exclusive-website-lokeshsattimsetti7s-projects.vercel.app/](https://exclusive-website-lokeshsattimsetti7s-projects.vercel.app/)](https://e-commerce-website-vpod-git-master-lokeshsattimsetti7s-projects.vercel.app/)
+**🔗 Live Demo:** [https://e-commerce-website-vpod-lokeshsattimsetti7s-projects.vercel.app/]
 
 ## 📄 Overview
 
